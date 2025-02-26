@@ -10,6 +10,35 @@ body {
   font-family: "Poppins", Times, serif;
 }
 
+/* Navbar*/
+/* ================================ */
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 100px;
+}
+
+
+.nav__links {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+
+
+  
+}
+
+.nav__link {
+ text-decoration: none;
+ color: #333333;
+ margin-left: 10px;
+}
+
+.nav__link:hover {
+color: #34c759;
+}
 /* 1. Selectors & Basic Properties - Hero Section */
 /* ================================ */
 .hero {
@@ -378,5 +407,5 @@ button {
   border-radius: 4px;
 }
 /* ================================ */
-/* 9. Navbar and Footer Section */
+/* 9. Footer Section */
 /* ================================ */
